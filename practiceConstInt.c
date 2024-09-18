@@ -15,5 +15,13 @@ int main(void) {
     const int MONTHS = 12; //변수 앞에 const를 붙여주면 상수가 됨. 웬만하면 const 키워드를 사용하여 상수를 만드는 것이 좋다.
     printf("months : %d\ntax rate : %f\n",MONTHS, TAX_RATE);
 
+    int c = 0xff;
+
+    printf("%d\n", c); // 10진수로 출력할 떄
+    printf("%x\n", c); // 그냥 16진수만 출력할 때
+    printf("%#x\n", c); //16진수 앞에 0x를 붙여서 출력할 때
+    printf("%o\n", c); //그냥 8진수만 출력할 때
+    printf("%#o\n", c); //8진수 앞에 0을 붙여서 출력할 때
+
     return 0;
 }
