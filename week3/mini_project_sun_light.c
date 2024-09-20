@@ -6,7 +6,10 @@ int main(void) {
     float c = 300000;
     float dist = 149600000;
 
-    float t;
+    // 3/2로 하면 그냥 1로 나오고
+    // 3.0/2.0로 계산해야함. 
+
+    double t;
     t = dist/c;
 
     printf("t = %f", t);
