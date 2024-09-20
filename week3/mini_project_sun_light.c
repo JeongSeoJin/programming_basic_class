@@ -1,8 +1,10 @@
+// 20, December, 2024
+
 #include <stdio.h>
 
 int main(void) {
-    double c = 300000;
-    double dist = 149600000;
+    float c = 300000;
+    float dist = 149600000;
 
     float t;
     t = dist/c;

@@ -10,9 +10,9 @@ int main(void) {
     int sale = 0;
     long total_sale = 0L;
 
-    year = 10;
+    year = 10; //약 3만2천을 넘지 않도록 주의
     sale = 200000000;  // 약 21억을 넘지 안도록 해야함. 
-    total_sale = year * sale;
+    total_sale = year * sale; // 약 21억을 넘지 안도록 해야함. 
 
     printf("total_sale = %d\n", total_sale);
 
