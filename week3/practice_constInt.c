@@ -1,3 +1,5 @@
+//18, December, 2024
+
 #include <stdio.h>
 #define TAX_RATE 0.2 //전처리기가 처리하는(컴파일러가 만들어질 때) 기호상수선언
 
