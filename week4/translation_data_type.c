@@ -11,7 +11,7 @@ int main(void) {
     int l = 10;
     float k = 20.3;
 
-    printf("%d", l + k); // int를 float로 자동 행변환. 
+    printf("%d", l + k); // int인 l을 float인 k에 맞추어 float로 자동 행변환. 
 
     int a;
     double b;
