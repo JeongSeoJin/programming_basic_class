@@ -14,7 +14,7 @@ int main(void) {
     */
 
     //실수와 실수를 비교할 때는 주의해야할 점이 있다.
-    int result, realnum;
+    double result, realnum;
     if (result == realnum){
 
     } //이렇게 작성하면 안됨. due to 부동소수점.
