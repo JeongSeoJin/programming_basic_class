@@ -7,7 +7,7 @@ int main(void) {
 
     printf("negative for exit\n");
 
-    while(grade >= 0) {
+    while(grade >= 0) { // 센티널값은 일반적으로 나올 수 없는 값을 지정하는 것이 가장 좋다.
         printf("input grade : ");
         scanf("%d", &grade);
         n++;

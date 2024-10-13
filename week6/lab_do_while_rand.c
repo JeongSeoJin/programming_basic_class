@@ -10,7 +10,7 @@ int main(void) {
     do {
         printf("input value : ");
         scanf("%d", &val);
-        printf("%d", answer);
+        // printf("%d", answer);
 
         i++;
 

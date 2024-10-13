@@ -1,13 +1,19 @@
 #include <stdio.h>
 
 int main(void) {
+
+    /////////////////////// summation //////////////////////
+
     int sum = 0;
     for (int i = 0; i < 11; i++) {
+        printf("i = %d\n", i);
         sum += i;
     }
     printf("Summation is %d\n", sum);
+    /* 후위연산자는 for문의 코드를 모두 실행 후에 i++한다. 때문에 0부터 실행되는 것.
+    */
 
-    //////////////////////////////
+    ///////////////////// square ////////////////
 
     int num;
 
@@ -43,7 +49,6 @@ int main(void) {
     }
 
     printf("In while : %d factorial is %ld\n", n, fact1);
-    //these are same as we expected. 
-
-
+    //these are same as we expected.
+    return 0;
 }
