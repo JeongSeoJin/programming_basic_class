@@ -22,7 +22,7 @@ int main(void) {
     printf("n    three squared\n");
 
     for (int i = 1; i < num+1; i++) {
-        printf("%5d     %5d\n", i, i*i*i); // 필드폭을 5로 설정해서 가운데 정렬이 가능하도록 함.
+        printf("%-5d     %-5d\n", i, i*i*i); // 필드폭을 5로 설정해서 가운데 정렬이 가능하도록 함.
     }
 
     /////////////////////factorial /////////////////

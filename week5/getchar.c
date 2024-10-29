@@ -8,7 +8,8 @@ int main(void) {
     ch = getchar();
 
     if(ch >= 'A' && ch <= 'Z')
-        printf("%c 는 대문자 입니다.\n", ch);
+        printf("%c 는 대문자 입니다.%d\n", ch);
+        // printf("%d", ch);
     else if (ch >= 'a'&& ch <= 'z')
         printf("%c 는 소문자입니다. \n", ch);
     else if (ch >= '0' && ch<= '9')

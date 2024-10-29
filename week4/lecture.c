@@ -25,6 +25,9 @@ int main(void) {
 
     printf("thank"), printf(" you\n");
 
+    // x = abs(-23);
+    // printf("%d", x);
+
     //bit 연산 
     // shift 연산 : 배로 증가 혹은 감소 
 

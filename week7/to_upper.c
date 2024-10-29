@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    char ch;
+    char ch; // char도 기본적으로 정수 자료형.
 
     while(1) {
         printf("input value : ");
@@ -10,8 +10,8 @@ int main(void) {
         if(ch == 'Q') {
             break;
         }
-        if(ch < 'a' ||ch > 'z') {
-            continue;
+        if(ch < 'a' || ch > 'z') {
+            continue; // 계속 반복하기 위함.
         }
 
         ch -= 32;

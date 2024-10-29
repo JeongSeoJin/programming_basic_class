@@ -8,6 +8,9 @@ int main(void) {
     printf("x = %08X\n", x);
     printf("y = %08X\n", y);
     printf("x+y = %08X\n", x+y);
+    printf("x = %#o\n", x);
+
+    // printf("%08X", x);
 
     return 0;
 }

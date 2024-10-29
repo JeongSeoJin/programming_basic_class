@@ -10,6 +10,7 @@ int main(void) {
 
     printf("a == b : %d \n", a == b);
     printf("%30.30lf\n", a);
+    printf("%-30.30lf\n", b);
 
     printf("fabs(a-b) < 0.0001 : %d\n", fabs(a-b) < 0.0001);
 }
