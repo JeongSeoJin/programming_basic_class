@@ -19,3 +19,4 @@ int factorial(int n) {
     return result;
 }
 
+// 반환값이 double형으로 정의된 함수에 int값을 반환하면 double형으로 형변환한 후에 반환함. 
