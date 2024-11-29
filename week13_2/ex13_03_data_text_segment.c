@@ -20,7 +20,5 @@ int main(void) {
         printf("%s\n", *(movies + i));
     }
 
-
-
     return 0;
 }
