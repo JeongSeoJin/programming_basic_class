@@ -4,7 +4,7 @@
 
 int main(void) {
     int i, index;
-    char dic[WORDS][2][30] = {
+    char dic[WORDS][2][30] = { // 3차원 배열
         {"book", "책"},
         {"boy", "소년"},
         {"computer", "컴퓨터"},
@@ -23,7 +23,7 @@ int main(void) {
             printf("%s: %s\n", word, dic[index][1]);
             return 0;
         }
-        index ++;
+        index ++; // 소 배열 하나씩 모두 검토하는 과정
     }
     printf("not found\n");
 }

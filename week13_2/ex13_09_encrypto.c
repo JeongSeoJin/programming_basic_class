@@ -11,7 +11,7 @@ int main(void) {
     return 0;
 }
 
-void encrypt(char cipher[], int shift) {
+void encrypt(char cipher[], int shift) { // 배열의 경우 원본이 변함.
     int i = 0;
     while(cipher[i] != NULL) {
         if (cipher[i] >= 'A' && cipher[i] <= 'z') {
