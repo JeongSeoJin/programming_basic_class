@@ -18,6 +18,7 @@ int main(void) {
     printf("name  = %s, number %d", name, number);
 
     // sprintf, sscanf 모두 대상이 터미널 창에서 변수로 바뀜. 변수에 저장 혹은 변수에서 값 받기
+    // 문자열 수치 변환
 
     return 0;
 }
