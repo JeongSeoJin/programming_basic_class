@@ -10,7 +10,11 @@ int main(void) {
     p = "GOODBYE"; // p에 GOODBYE의 주소를 저장하는 것. 
     printf("%s\n", p); 
 
+    //* 효율적인 메모리 관리 movies[0] = "transformer", movies[1] = "cats" ... but 수정 불가한 문자열 배열의 형태임.
     char *movies[10] = {"transformer", "cats", "sound of music"};
+
+    //* 포인터 배열 말고 그냥 이차원 배열로 문자열을 배열로 저장할 수도 있음.
+    // char movies[3][10] = {"transformer", "cats", "sound of music"}; 
 
     for (int i = 0; i < 3; i ++) {
         printf("%s\n", movies[i]);

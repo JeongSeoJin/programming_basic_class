@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
+//* structure definition
 struct point {
     int x;
     int y;
