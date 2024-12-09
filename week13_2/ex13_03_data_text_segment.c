@@ -12,6 +12,7 @@ int main(void) {
 
     //* 효율적인 메모리 관리 movies[0] = "transformer", movies[1] = "cats" ... but 수정 불가한 문자열 배열의 형태임.
     char *movies[10] = {"transformer", "cats", "sound of music"};
+    // 위의 요소들은 text segment에 저장되며 문자형 포인터의 배열이 이 요소들을 하나하나 가리킨다.
 
     //* 포인터 배열 말고 그냥 이차원 배열로 문자열을 배열로 저장할 수도 있음.
     // char movies[3][10] = {"transformer", "cats", "sound of music"}; 

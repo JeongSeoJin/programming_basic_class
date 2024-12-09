@@ -4,7 +4,7 @@
 
 int main(void) {
     int i, index;
-    char dic[WORDS][2][30] = { // 3차원 배열
+    char dic[WORDS][2][30] = { // 3차원 배열 /단어의 개수 -> 영어, 한국어 종류 -> 각 문자열의 길이
         {"book", "책"},
         {"boy", "소년"},
         {"computer", "컴퓨터"},
@@ -27,3 +27,4 @@ int main(void) {
     }
     printf("not found\n");
 }
+

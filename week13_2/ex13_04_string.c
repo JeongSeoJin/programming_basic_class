@@ -65,11 +65,11 @@ int main(void) {
     char seps[] = " ,\t\n"; // 스페이스바, 쉼표, 탭, 줄바꿈 모두 분리자가 됨.
     char *token = NULL;
 
-    token = strtok(ss, seps);
+    token = strtok(ss, seps); // 처음만 이렇게 
 
     while(token != NULL) {
         printf("token : %s\n", token);;
-        token = strtok(NULL, seps);
+        token = strtok(NULL, seps); // 그 이후부터는 NULL로 넣어줘야함
     }
 
     return 0;
